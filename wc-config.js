@@ -175,6 +175,11 @@
       separateFolder: true
     },
     {
+      selector: 'a-mutobo-',
+      url: 'atoms/',
+      separateFolder: true
+    },
+    {
       selector: 'c-',
       url: 'web-components-toolbox/src/es/components/controllers/',
       separateFolder: true
