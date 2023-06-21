@@ -41,14 +41,6 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: 'WendyOne';
-  src: url("https://fonts.gstatic.com/s/wendyone/v15/2sDcZGJOipXfgfXV5wgzZmW5O7w.woff2") format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
 :root {
   --color-active: #000080;
   --color-disabled: #000080;
@@ -57,10 +49,10 @@
   --color-secondary: #B37512;
   --color-tertiary: #000080;
   --color-quinary: #064680;
-  --font-family-bold: FrutigerBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
-  --font-family-secondary: KalamRegular, Avenir35Light, sans-serif;
   --font-family: FrutigerRegular, HelveticaNowText, Helvetica, Arial, sans-serif;
-  --font-family-quaternary: WendyOne, sans-serif;
+  --font-family-secondary: KalamRegular, Avenir35Light, sans-serif;
+  --font-family-tertiary: 'Wendy One', sans-serif;
+  --font-family-bold: FrutigerBold, HelveticaNowTextBold, HelveticaNowText, Helvetica, Arial, sans-serif;
   --header-default-a-logo-top-custom: calc(60.5px / 2 - 88px / 2);
   --header-default-a-logo-top-mobile-custom: -0.5em;
   --header-default-logo-width-custom: min(9em, 138px);
